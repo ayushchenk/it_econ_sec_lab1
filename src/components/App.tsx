@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Header } from "./Headers";
+import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Box } from "@mui/material";
 import { HomePage } from "./HomePage";
