@@ -13,8 +13,8 @@ export function InfoPage() {
         <Box m={1}>
           <Box mb={2} sx={{ borderBottom: 1, borderColor: 'divider' }}>
             <Tabs variant="fullWidth" value={selectedTab} onChange={(_, value) => setSelectedTab(value)}>
-              <Tab label="ChatGPT-3.5" style={{ textTransform: "none" }} />
-              <Tab label="Bard" style={{ textTransform: "none" }} />
+              <Tab label="ChatGPT-3.5" style={{ textTransform: "none", fontWeight: 700 }} />
+              <Tab label="Bard" style={{ textTransform: "none", fontWeight: 700 }} />
             </Tabs>
           </Box>
           <Alert severity="info">Запит: "Назви 10 функцій інформаційних технологій"</Alert>

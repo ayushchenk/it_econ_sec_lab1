@@ -15,7 +15,7 @@ export function Header() {
             mr={3}
             style={{ cursor: "pointer" }}
             onClick={() => navigate("/")}>
-            Home
+            Домашня сторінка
           </Link>
           <Link
             variant="h6"
@@ -24,7 +24,7 @@ export function Header() {
             mr={3}
             style={{ cursor: "pointer" }}
             onClick={() => navigate("/info")}>
-            Info
+            Тези
           </Link>
         </Box>
       </Toolbar>
