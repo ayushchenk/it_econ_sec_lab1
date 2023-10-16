@@ -8,7 +8,7 @@ export function Footer() {
         display="flex"
         justifyContent="center"
         alignItems="center">
-        <Typography variant="caption">Інформаційні технології в забезпеченні економічної безпеки держави - Лаб 1</Typography>
+        <Typography variant="caption">Інформаційні технології в забезпеченні економічної безпеки держави</Typography>
       </Box>
     </footer>
   );

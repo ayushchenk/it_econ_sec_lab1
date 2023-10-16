@@ -4,6 +4,7 @@ import { Footer } from "./Footer";
 import { Box } from "@mui/material";
 import { HomePage } from "./HomePage";
 import { InfoPage } from "./InfoPage";
+import { ExamPage } from "./ExamPage";
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/info" element={<InfoPage />} />
+          <Route path="/exam" element={<ExamPage />} />
         </Routes>
         <Footer />
       </Box>

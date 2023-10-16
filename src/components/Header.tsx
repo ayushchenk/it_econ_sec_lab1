@@ -26,6 +26,15 @@ export function Header() {
             onClick={() => navigate("/info")}>
             Тези
           </Link>
+          <Link
+            variant="h6"
+            color="inherit"
+            underline="none"
+            mr={3}
+            style={{ cursor: "pointer" }}
+            onClick={() => navigate("/exam")}>
+            Екзамен
+          </Link>
         </Box>
       </Toolbar>
     </AppBar>
